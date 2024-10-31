@@ -1,0 +1,223 @@
+# payware Mobile Payments for WooCommerce
+# Copyright (C) 2021
+# This file is distributed under the same license as the payware Mobile Payments for WooCommerce package.
+# info@payware.eu 2021
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-09 11:54+0200\n"
+"PO-Revision-Date: 2021-12-09 11:55+0200\n"
+"Last-Translator: \n"
+"Language-Team: info@payware.eu\n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+
+#: includes/class-paywr-form-fields.php:9
+msgid "Enable/Disable"
+msgstr "Включи/Изключи"
+
+#: includes/class-paywr-form-fields.php:10
+msgid "Enable payware mobile payments"
+msgstr "Активирай payware мобилни плащания"
+
+#: includes/class-paywr-form-fields.php:16
+msgid "Sandbox mode"
+msgstr "Тестов режим"
+
+#: includes/class-paywr-form-fields.php:17
+msgid "Enable Sandbox mode"
+msgstr "Активирай тестов режим"
+
+#: includes/class-paywr-form-fields.php:19
+msgid ""
+"Place the payment gateway in test mode.<br>Use the <a href=\"https://play."
+"google.com/store/apps/details?id=eu.payware.demo.fi\">payware e-wallet "
+"emulator</a> to confirm a payment."
+msgstr ""
+"Постави платежния метод в тестов режим.<br>Ползвай <a href=\"https://play."
+"google.com/store/apps/details?id=eu.payware.demo.fi\">емулатора на payware</"
+"а>, за да потвърдиш плащането."
+
+#: includes/class-paywr-form-fields.php:24
+msgid "Title"
+msgstr "Заглавие"
+
+#: includes/class-paywr-form-fields.php:26
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+"Полето контролира заглавието, което потребителя вижда по време на плащане."
+
+#: includes/class-paywr-form-fields.php:27
+msgid "Mobile payments"
+msgstr "Мобилни плащания"
+
+#: includes/class-paywr-form-fields.php:31
+msgid "Description"
+msgstr "Описание"
+
+#: includes/class-paywr-form-fields.php:33
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+"Полето контролира описанието, което потребителя вижда по време на плащане."
+
+#: includes/class-paywr-form-fields.php:34
+msgid "Pay with your favorite payment mobile app."
+msgstr "Плати с предпочитаното платежно мобилно приложение."
+
+#: includes/class-paywr-form-fields.php:45
+msgid "Payment details"
+msgstr "Платежни детайли"
+
+#: includes/class-paywr-form-fields.php:49
+msgid "Payment period"
+msgstr "Период за плащане"
+
+#: includes/class-paywr-form-fields.php:51
+msgid ""
+"The time allowed for payment completion in seconds. Accepted range 60 - 600."
+msgstr ""
+"Период в секунди, в който е възможно осъществяване на плащане. Възможен "
+"диапазон: 60 -600."
+
+#: includes/class-paywr-form-fields.php:52
+msgid "600"
+msgstr "600"
+
+#: includes/class-paywr-form-fields.php:55
+msgid "Mobile page url"
+msgstr "Адрес на страницата за мобилно плащане"
+
+#: includes/class-paywr-form-fields.php:56
+msgid "Leave default if unsure: mobile-payments"
+msgstr ""
+"Използвай стойността по подразбиране, в случай, че се колебаеш: mobile-"
+"payments"
+
+#: includes/class-paywr-form-fields.php:63
+msgid "Partner's data (required in production mode)"
+msgstr ""
+
+#: includes/class-paywr-form-fields.php:67
+msgid "Partner ID"
+msgstr "Партньорски идентификатор"
+
+#: includes/class-paywr-form-fields.php:69
+msgid ""
+"<a href=\"https://kb.payware.eu/general/faqs#where-is-my-partner-identifier"
+"\" target=\"_blank\">Where is my payware partner identifier?</a>"
+msgstr ""
+"<a href=\"https://kb.payware.eu/general/faqs#where-is-my-partner-identifier"
+"\" target=\"_blank\">Къде е партньорският ми идентификатор?</a>"
+
+#: includes/class-paywr-form-fields.php:70
+#: includes/class-paywr-form-fields.php:76
+msgid " "
+msgstr " "
+
+#: includes/class-paywr-form-fields.php:73
+msgid "webPOS identifier"
+msgstr "webPOS идентификатор"
+
+#: includes/class-paywr-form-fields.php:75
+msgid ""
+"<a href=\"https://kb.payware.eu/general/faqs#where-are-my-virtual-pos-"
+"identifiers\" target=\"_blank\">Where is my webPOS identifier?</a>"
+msgstr ""
+"<a href=\"https://kb.payware.eu/general/faqs#where-are-my-virtual-pos-"
+"identifiers\" target=\"_blank\">Къде да намеря webPOS идентификаторът?</a>"
+
+#: includes/class-paywr-form-fields.php:80
+msgid "payware Public Key"
+msgstr "Публичен ключ на payware"
+
+#: includes/class-paywr-form-fields.php:82
+msgid ""
+"<a href=\"https://kb.payware.eu/general/faqs#where-is-payware-public-key\" "
+"target=\"_blank\">Where is payware Public Key?</a>"
+msgstr ""
+"<a href=\"https://kb.payware.eu/general/faqs#where-is-payware-public-key\" "
+"target=\"_blank\">Къде да намеря публичният ключ на payware?</a>"
+
+#: includes/class-paywr-gateway.php:28
+msgid "Mobile payments by payware"
+msgstr "Мобилни плащания от payware"
+
+#: includes/class-paywr-gateway.php:29
+msgid "Enables receiving payments by customer's favorite payment app."
+msgstr ""
+"Прави възможно получаване на плащания от предпочитаното от клиента платежно "
+"мобилно приложение."
+
+#: includes/class-paywr-gateway.php:154
+msgid "No valid payment link"
+msgstr "Не е налична валидна референция за плащане"
+
+#: includes/class-paywr-gateway.php:262
+msgid "payware: PAID ("
+msgstr "payware: PAID ("
+
+#: payware-mobile-payments-for-woocommerce.php:60
+msgid "Awaiting mobile payment"
+msgstr "Очаква мобилно плащане"
+
+#: payware-mobile-payments-for-woocommerce.php:61
+msgid "Back to checkout"
+msgstr "Обратно"
+
+#: payware-mobile-payments-for-woocommerce.php:112
+msgid "Settings"
+msgstr "Настройки"
+
+#: payware-mobile-payments-for-woocommerce.php:178
+msgid "Expired"
+msgstr "Изтекла"
+
+#: payware-mobile-payments-for-woocommerce.php:179
+msgid "Expires in"
+msgstr "Изтича след"
+
+#: payware-mobile-payments-for-woocommerce.php:180
+msgid "Declined"
+msgstr "Отказана"
+
+#: payware-mobile-payments-for-woocommerce.php:181
+msgid "Failed"
+msgstr "Несполучлива"
+
+#: payware-mobile-payments-for-woocommerce.php:182
+msgid "Payment ID"
+msgstr "Идентификатор"
+
+#: payware-mobile-payments-for-woocommerce.php:183
+msgid "Order total"
+msgstr "Тотал на поръчката"
+
+#: payware-mobile-payments-for-woocommerce.php:184
+msgid "Confim with your favorite mobile payment app."
+msgstr "Потвърди с предпочитаното платежно мобилно приложение."
+
+#: payware-mobile-payments-for-woocommerce.php:205
+msgid "Pay Now"
+msgstr "Плати сега"
+
+#: payware-mobile-payments-for-woocommerce.php:217
+msgid "Action is missed"
+msgstr "Action is missed"
+
+#: payware-mobile-payments-for-woocommerce.php:250
+msgid "Invalid order ID"
+msgstr "Невалиден идентификатор на поръчката"
+
+#~ msgid "Payware partner data"
+#~ msgstr "Данни за партньора на payware"
+
+#~ msgid "Your order is paid. Thank you!"
+#~ msgstr "Вашата поръчка е платена. Благодаря!"
+
+#~ msgid "Shared payment"
+#~ msgstr "Споделено плащане"

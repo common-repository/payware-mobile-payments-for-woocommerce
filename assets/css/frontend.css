@@ -1,0 +1,111 @@
+.paywr-mobile-form-wrapper {
+    margin: 10px 0 0 0;
+    text-align: center;
+    display: inline-block;
+}
+.paywr-paynow-btn {
+    display: none;
+    min-width: 300px;
+    background: #484848;
+    color: #fff;
+    width: 100%;
+    font-size: 17px;
+    margin-top: 15px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 5px 10px #48484838;
+    padding: 8px;
+    text-decoration: none;
+    outline: none;
+}
+.paywr-paynow-btn:hover {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    opacity: .9;
+}
+@media(max-width: 500px) {
+    .paywr-paynow-btn {
+        display: inline-block;
+    }
+}
+
+.wc-paywr-mobile-form {
+    text-align: center;
+}
+
+#paywr-qrcode {
+    width: auto;
+    min-width: 250px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 119, 192, 0.1);
+    border: 4px solid #d6d6d6;
+    margin-bottom: 5px;
+}
+#paywr-qrcode img {
+    max-width: 100%;
+}
+
+.qr_code_img {
+    display: none !important;
+    max-width: 100%;
+}
+@media(min-width: 500px) {
+    .qr_code_img {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        }
+}
+
+#paywr-tr-data {
+    width: auto;
+    min-width: 250px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 119, 192, 0.1);
+    border: 4px solid #d6d6d6;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.paywr-tr-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.paywr-tr-data {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.bold {
+        font-weight: bold;
+}
+
+.xx-large {
+     font-size: xx-large;
+}
+
+.paywr-lbl {
+    font-weight: 500;
+    max-width: 200px;
+    align-self: center;
+}
+
+.paywr-text {
+        font-weight: 500;
+        display: none;
+        max-width: 200px;
+        align-self: center;
+}
+@media(min-width: 500px){
+    .paywr-text {
+        display: inline-block;
+    }
+}
